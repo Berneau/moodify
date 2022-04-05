@@ -55,7 +55,7 @@ function getWeatherDataByCity(error) {
   // fallback if no position is given
   console.log('Falling back to Salzburg', error);
   $.ajax({
-    url: 'http://api.openweathermap.org/data/2.5/weather?q=Salzburg&units=metric&APPID=6ea610329e6fe2efc7e43d4b50dbdafc',
+    url: 'https://api.openweathermap.org/data/2.5/weather?q=Salzburg&units=metric&APPID=6ea610329e6fe2efc7e43d4b50dbdafc',
     success: function(data) {
       prepareData(data);
     },
