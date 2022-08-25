@@ -75,11 +75,6 @@ body {
   font-size: 32px;
 }
 
-.header .action i {
-  border-radius: 100%;
-  cursor: pointer;
-}
-
 /* -----------------------------------------  content  ------------------------------------------------- */
 
 .content {
@@ -227,7 +222,7 @@ svg.animate:nth-of-type(5) { animation-delay: 2s; }
   10%  { opacity: 1; }
   50%  { opacity: 1; }
   60%  { opacity: .5; }
-  100% { opacity: .5: }
+  100% { opacity: .5; }
 }
 
 @keyframes fade-text {
@@ -235,5 +230,5 @@ svg.animate:nth-of-type(5) { animation-delay: 2s; }
   25%  { opacity: 1; }
   50%  { opacity: .5; }
   75%  { opacity: 1; }
-  100% { opacity: .5: }
+  100% { opacity: .5; }
 }
